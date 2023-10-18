@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 from utils.utils import load_lottieurl
 
 st.set_page_config(
-    page_title="Mohite Resorts Pvt.Ltd",
+    page_title="Gurav Resorts Pvt.Ltd",
     page_icon="./styles/favicon.png",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -25,7 +25,7 @@ lottie_coding = load_lottieurl(
 st_lottie(lottie_coding, height=200, key="main logo")
 
 st.markdown(
-    "<h1 style='text-align: center;'><span style='border-bottom: 2px solid red'>Mohite Resorts Pvt.Ltd</span></h1>",
+    "<h1 style='text-align: center;'><span style='border-bottom: 2px solid red'>Gurav Resorts Pvt.Ltd</span></h1>",
     unsafe_allow_html=True,
 )
 st.markdown(
